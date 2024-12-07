@@ -75,10 +75,6 @@ internal class Program
     void ACountry(string country = "South Africa")
     {
         Console.WriteLine($"I am from {country}, not {theirCountry} and I do not know any {noPeople} people in {theirCountry}. I am just from {country}");
-        static void sOs(string amountGot)
-        {
-            Console.WriteLine($"I gat {amountGot} they could last me the next 2 weeks");
-        }
     }
     void ASchool(string schoolName, string courseName)
     {
