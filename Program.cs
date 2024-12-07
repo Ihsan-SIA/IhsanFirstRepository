@@ -12,9 +12,9 @@ internal class Program
         //void but not static
         theFreshher.MatricNews("Mr", "Ajanlekoko");
         //static but not void
-        //Console.Write("Enter Garnacho new age here: ");
-        //string garnaBirthday = BirthdayWish("Garnacho", "Man U", int.Parse(Console.ReadLine()!));
-        //Console.WriteLine(garnaBirthday);
+        Console.Write("Enter Garnacho new age here: ");
+        string garnaBirthday = BirthdayWish("Garnacho", "Man U", int.Parse(Console.ReadLine()!));
+        Console.WriteLine(garnaBirthday);
 
         //static but not void
         BirthdayWish("Amad", "Man Utd", 18);
